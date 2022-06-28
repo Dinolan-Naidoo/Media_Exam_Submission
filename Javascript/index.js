@@ -30,6 +30,11 @@ function activeMenu()
 activeMenu();
 window.addEventListener("scroll", activeMenu);
 
+function ResetForm()
+{
+  document.getElementById("form").reset();
+}
+
 
 
 
