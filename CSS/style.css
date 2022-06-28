@@ -987,7 +987,7 @@ section{
     transition: ease-in-out 0.3s;
 }
 
-.contact .contactBx .form .inputBx button{
+.contact .contactBx .form .inputBx button:hover{
     transform: scale(1.1);
 
 }
