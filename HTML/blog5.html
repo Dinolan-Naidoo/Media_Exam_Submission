@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/blog5.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    
+    <title>Blog 5 Page</title>
+</head>
+<body>
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+     <div class="bx bx-menu" id="menu-bars"></div>
+
+
+     <header>
+        <a href="" class="logo"><span>D </span>N</a>
+        
+        <nav class="navbar">
+            <ul>
+                <li class="links"><a  href="../index.html#home">Home</a></li>
+                <li class="links"><a href="../index.html#about">About</a></li>
+                <li id="blogA"><a  href="../index.html#blog">Blogs</a></li>
+                <li class="links"><a  href="../index.html#experience">Experience</a></li>
+                <li class="links"><a  href="../index.html#portfolio">Portfolio</a></li>
+                <li class="links"><a  href="../index.html#design">Design </a></li>
+                <li class="links"><a  href="../index.html#contact">Contact</a></li>
+            </ul>    
+            
+        </nav>
+
+        <div class="sci">
+            
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+
+        </div>
+
+    </header>
+
+         <!--Blog  start -->
+         <section class="blog" id="blog">
+
+           
+            
+    
+             <div class="contentBx">
+                 <h2>Blog 5:   <span>Critical Analysis of my UI and UX: </span> </h2>
+                 
+                 <article>
+                     <h3>Abstract:</h3>
+                   <p>
+                    The importance of user-interface and user-experience in web design cannot be overstated. Users are drawn not only to the aesthetics of a website but also the usability. The augmentation of the user-experience is achieved by critical design considerations which accumulate to bring about a unified sentiment. This essay will critically analyse and evaluate design considerations made for my first website submission.
+                   </p>
+
+                   <h3>UI: <span >Navigation Bar</span> </h3>
+                   <p>
+                    The first implementation for user-interface was the navigation sidebar. A sidebar was implemented to remain static on the left side of the webpage in order to have the hyperlink navigation available to the user at all times. The user can scroll to any part of the page by simply clicking the desired heading on the navigation bar. This static implementation works well with larger screen widths, however, it had to be removed completely on smaller screen widths. This was done by implementing screen width responsiveness. An options bar is displayed at the top right corner of smaller screen sizes and the navigation sidebar disappears. The user can click the options bar and the original sidebar navigation scrolls to the right to be viewed on the entire screen width. Furthermore, an exit “X” was implemented on the top right corner of the navigation bar so that the user can close the navigation bar. According to <cite>D Balanco [1]</cite>  , without proper navigation, websites can appear to be unstructured and unorganised. Good navigation ensures that your website is accessible and usable. The static navigation sidebar worked well for the first submission. However, the responsiveness for smaller screen sizes did not work in extreme scenarios. This is a flaw that I will rectify for the second submission. Furthermore, the sidebar navigation worked well to scroll to the desired heading, however, a visual improvement can be made to provide clarity on which page the user is currently on. This can be achieved by highlighting the current page heading on the sidebar navigation. 
+                   </p>
+
+                   <h3>UI: <span >Buttons and Hovering </span> </h3>
+                   <p>
+                       <q>Buttons are used for actions that affect the website’s front-end or back-end; links are used for navigation and actions that don’t affect the website at all </q> – <cite>P Wong</cite> . This statement by Wong provided me with great insight to when and where I should use buttons or hyperlinks. My first submission consisted of mainly download PDF buttons. I also implemented a 'Hire Me' button on the home page. When a user hovers over the button, it increases in size to indicate that the user can click it. Once the user clicks this button, the web page scrolls to the bottom where the 'Contact Me' page is located. Feedback from this button suggests that it could be perceived as both very innovative or equally cliché. It was decided to keep this button for the second submission in order to have further testing and feedback on whether it should be removed or not. Another button implemented was the ‘Download CV’ button. This button is black with a blue border ( #00ccff to match the rest of the colour scheme). When a user hovers over this button the blue border becomes brighter, and the button size is increased. This was implemented to give the user a clear indication that the button can be clicked. Once the button is clicked, the browser gives the user an option to download my CV or view it in another tab. Feedback from the first submission suggests that the ‘view in another tab’ option did not work. This was a peculiar outcome since it worked on my browser (Firefox) during testing. This will have to be researched and improved for the second submission. The other buttons implemented was the ‘Download PDF’ button for each blog. The aesthetics of these buttons are exactly the same as the ‘Download CV’ button. This was done to create a unified and consistent user experience. Furthermore, the button was implemented to give the user an option to save and read the blog posts in PDF format. This was done to make the content more accessible and usable. For the next submission I want to implement the functionality of the ‘Submit’ button in the contact me text field. This will allow users to fill in their details and send me a message via the website. 
+                   </p>
+
+                   <h3>UI: <span >Informational Components  </span> </h3>
+                   <p>
+                       About Me section: <q> Your website's About page wields more marketing muscle than any other piece of content</q> – <cite>Dholakiya [4]</cite> . This section was implemented to give the user background information about myself. This is information is pertinent for potential employers that look at my website. The information provided includes my field of study, the institution I am attending, and further information to provide insight on my work ethic and my passion for the digital field. The information is displayed in a box. This box has a black background to make the white font stand out in order for the content to be clear and readable. Furthermore, the ‘Download CV’ button is within this box located at the bottom. This was implemented in this way because once the user has read the about me content, they have the option to download my CV for further information. Once again, the responsiveness of this section needs to be improved for smaller screen sizes. This will be implemented for the second submission.
+                   </p>
+                   <p>
+                        Blog section: The academic blogs are a requirement set by the coordinators of WSOA3028A. Each blog has an abstract box for the user to read. The user can then click on the desired blog abstract and open up the entire blog. In order to clarify that the user can click on the abstract I added a sliding CSS colour theme and changed the mouse to pointer every time a user hovers over an abstract. The reason for the CSS colour slide effect is also to make the text easier to read because it separates the background image from the abstract box. <cite>Peta Goldberg</cite> spoke about the concept of ‘readability’ in her UX presentation at WITS university[5]. <q>Readability refers to the way in which blocks of texts or large complex chunks of information are arranged on a page </q> - <cite>Peta Goldberg</cite> . In my Blog abstract, the use of the sliding background made the abstract text more readable. I will therefore keep this aspect for my next submission and add it to the project abstracts as well. 
+                   </p>
+
+                   <h3>UX: <span >Colour Scheme and Visual Design (fonts)  </span> </h3>
+
+                   <p>
+                    The colour scheme was chosen for two reasons. The first reason was to match the background images of my website. These images are of computer screens and include cool colours such as blue and purple. Secondly, I did research into how humans perceive and feel about different colours. It was found that blue is a colour of stability and usually brings about a soothing feeling to the viewer. As a result I chose blue as my main colour and matched the type of blue to the background images. This was done to give potential employers a feeling of trust and stability when they view my website. Furthermore, the font ‘Roboto’ was chosen because I thought it looked professional for a portfolio website. These decisions combine to form a user-experience that provokes stability and unity throughout the website.  
+                   </p>
+
+                   <h3>UX: <span >Usability </span> </h3>
+
+                   <p>
+                    <q>Web design, usability refers to how easy a website is for visitors to interact with. For example, some sites are visually stunning but difficult to navigate, which makes it hard for users to find what they need. Such websites are on the low end of the usability scale </q> – <cite>A2 Support Team [6]</cite>. I believe that my website does consider usability for the user. The side-bar navigation allows the user to click on a desired section and the page will scroll down or up to the required heading. However, it is evident from the feedback for submission 1 that my blog section can have improvements on usability. For example, the user has to traverse back and forth to the home page in order to view the next blog. This usability issue can be fixed by adding a ‘next blog’ or ‘previous blog’ button within the blog page itself. This will be implemented for my next submission to improve the usability of the website. This will also improve the user-experience because the website will have a smooth flow between any desired pages that the user wants to view. 
+                   </p>
+
+                   <h4>REFERENCES:</h4>
+
+                   <cite>1)	Balanco, D., n.d. Importance Of Website Navigation. [online] Optimus01. Available at:<a href=" https://www.optimus01.co.za/importance-of-website-navigation" target="_blank"> https://www.optimus01.co.za/importance-of-website-navigation </a>  [Accessed 11 May 2022].</cite><br><br>
+                   <cite>2)	Costa, R., 2020. [online] Justinmind.com. Available at: <a href="https://www.justinmind.com/blog/button-design-websites-mobile-apps" target="_blank"> https://www.justinmind.com/blog/button-design-websites-mobile-apps</a> [Accessed 11 May 2022].</cite><br><br>
+                   <cite>3)	Wong, P., 2019. Buttons &amp; Links: The Basics - UX Office. [online] Ux.iu.edu. Available at:<a href="https://ux.iu.edu/writings/buttons-vs-links-basic" target="_blank"> https://ux.iu.edu/writings/buttons-vs-links-basic</a> [Accessed 11 May 2022].</cite><br><br>
+                   <cite>4)	Dholakiya, P., 2019. The Importance of Your Website's 'About' Page - business.com. [online] business.com. Available at: <a href="https://www.business.com/articles/importance-of-about-page-on-website"> https://www.business.com/articles/importance-of-about-page-on-website</a>[Accessed 11 May 2022].</cite><br><br>
+                   <cite>5)	Goldberg , P., 2022. UX_The Basics [online lecture at WITS university] [Watched 6 April 2022].</cite><br><br>
+                   <cite>6)	Support Team, A., 2018. An Introduction to Usability and User Experience in Web Design. [online] The A2 Posting. Available at: <a href="https://www.a2hosting.com/blog/usability-and-user-experience"> https://www.a2hosting.com/blog/usability-and-user-experience</a> [Accessed 6 April 2022].</cite>
+                   
+
+
+                 </article>
+        
+                 <div class="btn">
+                     <a href="../Documents/Critical Analysis of website UX and UI implementations.pdf" class="blogBtn" target="_blank">Download PDF</a>
+                 </div>
+
+                 <div class="nav_buttons"> 
+                    <a href="../HTML/blog4.html" id="navigate">&#60--- Blog 4 </a>
+                    <a href="../HTML/blog6.html" id="navigate">Blog 6 ---&#62</a>
+                </div>
+    
+    
+    
+             </div>
+    
+            
+    
+         </section>
+
+         <script src="../Javascript/index.js"></script>
+    
+    
+</body>
+</html>

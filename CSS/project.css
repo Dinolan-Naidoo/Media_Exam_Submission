@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 63%;
+}
+
+body{
+    background: black;
+    padding-left: 28rem;
+}
+
+/**********************************Side Bar Start***************************************/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    padding: 5rem 2rem;
+    z-index: 100;
+    width: 25rem;
+    text-align: center;
+    
+    transition: 0.5s ease-in-out;
+
+}
+
+header .logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 5rem ;
+    font-weight: bolder;
+    text-decoration: none ;
+}
+
+header .logo span{
+    color:#00ccff ;
+    text-transform: uppercase;
+}
+
+
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color: white;
+    margin: 3rem 0;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 0.5rem 1.1rem;
+    
+}
+
+
+
+
+header .navbar a:hover{
+    /*letter-spacing: .2rem;*/
+    transform: scale(1.1);
+    color: #00ccff;
+    
+
+}
+#blogA{
+    border-right: solid 2.5px #00ccff;
+}
+
+
+
+
+header .sci a{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0.7rem;
+}
+
+header .sci a:hover{
+    color: #00ccff;
+    transition: 0.5s ease-in-out ;
+
+}
+
+
+
+
+
+
+
+#menu-bars{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: 4rem;
+    display: none;
+    z-index: 100000;
+    cursor: pointer;
+    
+}
+/***********************************Side Bar End************************************/
+
+/***********************************Project Start***************************************************/
+.project
+{
+    position: relative;
+    width: 100%;
+    padding: 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.project .contentBx{
+    width: 95%;
+    z-index: 1 ;
+    position: center;
+    background: #000000de;
+    padding: 4rem;
+   
+}
+
+.project .contentBx h2{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.project .contentBx span{
+    color: #00ccff;
+}
+
+
+
+.project .contentBx article{
+    font-size: 1.8rem;
+    color: white;
+    text-align: justify;
+    font-weight: 400;
+   
+
+}
+
+
+
+
+
+
+#canvas4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /*background: radial-gradient(#00000058,#000000);*/
+    
+    
+}
+
+#portF{
+    border-right: solid 2.5px #00ccff;
+}
+
+#Game_Link{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    background: #00ccff50;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
+#Game_Link:hover{
+    color: black;
+    background: #00ccff;
+}
+
+#P1{
+    width: 100%;
+    padding: 3rem;
+    border: 2px solid#00ccffad;
+    overflow: hidden;
+    object-fit: contain;
+    
+    
+    
+}
+
+#protext_text{
+    padding: 2rem;
+}
+
+/********************************************Project End********************************************************/
+/*******************************************Responsiveness Start********************************************/
+
+@media only screen and (max-width:950px)
+{
+
+    html{
+        font-size: 60%;
+    }
+    #menu-bars
+    {
+        display: initial;
+    }
+
+    header
+    {
+        left: -120%;
+    }
+
+    header.active
+   {
+        left: 0%;
+        width: 20%;
+   }
+
+   body{
+       padding: 1rem;
+   }
+
+  
+
+   
+
+   
+
+   
+}
+
+
+@media (max-width:480px){
+
+    html{
+        font-size:50% ;
+    }
+
+    
+    header.active
+    {
+         left: 0%;
+         width: 40%;
+    }
+
+    #menu-bars
+    {
+        display: initial;
+        right: 1rem;
+    }
+
+    header{
+        
+        padding: 0.5rem 0.2rem;
+        z-index: 100;
+        width: 12rem;
+    
+    }
+    
+    header .logo{
+        text-transform: uppercase;
+        color: white;
+        font-size: 4rem ;
+        font-weight: bolder;
+        text-decoration: none ;
+    }
+    
+    header .logo span{
+        color:#00ccff ;
+        text-transform: uppercase;
+    }
+    
+
+}
+
+/*******************************************Responsiveness End*************************************************/

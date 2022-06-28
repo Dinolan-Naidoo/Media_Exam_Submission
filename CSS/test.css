@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+html{
+    font-size: 63%;
+}
+
+body{
+    
+    padding-left: 28rem;
+    background: black;
+}
+
+/**********************************Side Bar Start***************************************/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    padding: 5rem 2rem;
+    z-index: 100;
+    width: 22rem;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+
+}
+
+header .logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem ;
+    font-weight: bolder;
+    text-decoration: none ;
+}
+
+header .logo span{
+    color:#00ccff ;
+    text-transform: uppercase;
+}
+
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color: white;
+    margin: 3rem 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header .navbar a:hover{
+    /*letter-spacing: .2rem;*/
+    transform: scale(1.2);
+    color: #00ccff;
+
+}
+
+
+header .sci a{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0.7rem;
+}
+
+header .sci a:hover{
+    color: #00ccff;
+    transition: 0.3s;
+
+}
+
+#menu-bars{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: 4rem;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+/***********************************Side Bar End************************************/
+
+/***********************************Project Start***************************************************/
+
+.project
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.project .contentBx{
+    width: 95%;
+    z-index: 1 ;
+    position: center;
+    background: #000000de;
+    padding: 4rem;
+   
+}
+
+.project .contentBx h2{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.project .contentBx span{
+    color: #00ccff;
+}
+
+
+
+.project .contentBx article{
+    font-size: 1.8rem;
+    color: white;
+    text-align: justify;
+    font-weight: 400;
+   
+
+}
+
+
+
+
+
+.project .contentBx .btn{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1rem;
+    
+}
+
+.project .contentBx .btn .blogBtn{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #00ccff77;
+    background: black;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+
+}
+
+
+
+.project .contentBx .btn .blogBtn:hover{
+    transform: scale(1.15);
+    border: 1px solid #00ccff
+}
+
+#canvas4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /*background: radial-gradient(#00000058,#000000);*/
+    
+    
+}
+
+
+/********************************************Project End********************************************************/
+
+

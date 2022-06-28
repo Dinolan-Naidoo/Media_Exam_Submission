@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 63%;
+}
+
+body{
+    background: #000000;
+    padding-left: 28rem;
+    z-index: -10;
+}
+
+/**********************************Side Bar Start***************************************/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    padding: 5rem 2rem;
+    z-index: 100;
+    width: 22rem;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+
+}
+
+header .logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem ;
+    font-weight: bolder;
+    text-decoration: none ;
+}
+
+header .logo span{
+    color:#00ccff ;
+    text-transform: uppercase;
+}
+
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color: white;
+    margin: 3rem 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header .navbar a:hover{
+    /*letter-spacing: .2rem;*/
+    transform: scale(1.2);
+    color: #00ccff;
+
+}
+
+
+header .sci a{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0.7rem;
+}
+
+header .sci a:hover{
+    color: #00ccff;
+    transition: 0.3s;
+
+}
+
+#menu-bars{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: 4rem;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+
+#designA{
+    border-right: solid 2.5px #00ccff;
+}
+/***********************************Side Bar End************************************/
+
+/***********************************Blog Start***************************************************/
+
+.design
+{
+    position: relative;
+    width: 100%;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.design .contentBx{
+    width: 95%;
+    z-index: 1 ;
+    position: center;
+    background: #000000;
+    padding: 3rem;
+   
+}
+
+.design .contentBx h2{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.design .contentBx span{
+    color: #00ccff;
+}
+
+
+
+.design .contentBx article{
+    font-size: 1.8rem;
+    color: white;
+    text-align: left;
+    
+
+    font-weight: 400;
+   
+
+}
+
+h3{
+    padding-bottom: 1rem;
+}
+
+
+article{
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+}
+
+
+#WF{
+    width: 100%;
+    padding: 1rem 15rem;
+    overflow: hidden;
+    object-fit: contain; 
+}
+
+#SG{
+    width: 100%;
+    padding: 1rem 1rem;
+    overflow: hidden;
+    object-fit: contain; 
+    border: solid 1px #00ccff;
+}
+
+
+
+
+
+
+#backgroundImg{
+     /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.design .contentBx .btn .blogBtn:hover{
+    transform: scale(1.15);
+    border: 1px solid #00ccff
+}
+
+
+
+/********************************************Design End********************************************************/
+
+/*********************************************Responsiveness Start************************************************/
+@media only screen and (max-width:950px)
+{
+
+    html{
+        font-size: 60%;
+    }
+    #menu-bars
+    {
+        display: initial;
+    }
+
+    header
+    {
+        left: -120%;
+    }
+
+    header.active
+   {
+        left: 0%;
+        width: 20%;
+   }
+
+   body{
+       padding: 1rem;
+   }
+
+   .home .contentBx{
+
+    top: 20%;
+    left: 20%;
+    max-width: calc(100% -20px);
+   }
+
+   .about .contentBx{
+    width: 95%;
+    z-index: 1 ;
+    background: #000000b1;
+    
+   }
+
+   .design .container .box img{
+       left: 5%;
+       width: 85rem;
+       height: 60rem;
+   }
+
+   
+}
+
+@media only screen and (max-width:1200px)
+{
+   .contact .contactBx{
+       display: flex;
+       flex-direction: column;
+       width: 60%;
+   }
+}
+@media only screen and (max-width:730px)
+{
+    .skills .skillBx .bar .info span
+    {
+        font-size: 1.5rem;
+    }
+
+    .skills .skillBx .bar .progress-line span::after{
+        font-size: 1rem;
+        
+    }
+    .design .container .box img{
+        left: 18%;
+        width: 60rem;
+        height: 60rem;
+    }
+
+}
+
+@media only screen and (max-width:580px){
+
+    .skills .skillBx .bar .info span
+    {
+        font-size: 1.4rem;
+    }
+
+    .skills .skillBx .bar .progress-line span::after{
+        display: none;
+        
+    }
+    .skills .skillBx .bar .progress-line span::before{
+        display: none;
+    }
+
+    .design .container .box img{
+        left: 30%;
+        width: 40rem;
+        height: 60rem;
+    }
+
+    .design .container .box .h3{
+        font-size: 2rem;
+        left: 40%;
+    }
+
+    .home .contentBx p{
+        font-size: 2rem;
+    
+    }
+    .home .contentBx h1{
+        font-size: 3rem;
+       
+    
+    }
+    .home .contentBx h1 span{
+        color: #00ccff;
+        text-transform: uppercase;
+    
+    }
+    
+    .home .contentBx h4{
+        font-size: 1.8rem;
+       padding-right: 18.2rem;;
+        color: rgb(255, 255, 255);
+        
+    
+    }
+    .home .contentBx h4 span{
+        font-size: 1.8rem;
+        left: 20rem;
+        top: 11.57rem;
+
+    }    
+
+}
+
+@media (max-width:480px){
+
+    html{
+        font-size:50% ;
+    }
+
+    .home{
+        height: 20px;
+    }
+   
+    .home .contentBx{
+        left: 10rem;
+        top: 20rem;
+    }
+
+    .home .contentBx h1{
+        font-size:4rem ;
+    }
+
+    .home .contentBx p{
+        font-size: 3rem;
+    }
+    .home .contentBx h4{
+        display: none;
+    
+    }
+    .home .contentBx h4 span{
+        display: none;
+
+    }  
+    header.active
+    {
+         left: 0%;
+         width: 40%;
+    }
+
+    #menu-bars
+    {
+        display: initial;
+        right: 1rem;
+    }
+
+    header{
+        
+        padding: 0.5rem 0.2rem;
+        z-index: 100;
+        width: 12rem;
+    
+    }
+    
+    header .logo{
+        text-transform: uppercase;
+        color: white;
+        font-size: 4rem ;
+        font-weight: bolder;
+        text-decoration: none ;
+    }
+    
+    header .logo span{
+        color:#00ccff ;
+        text-transform: uppercase;
+    }
+    
+    
+    
+
+    
+
+
+
+}
