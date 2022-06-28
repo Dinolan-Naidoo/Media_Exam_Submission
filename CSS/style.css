@@ -946,16 +946,17 @@ section{
 
 .contact .contactBx .form{
     width: 100%;
-    margin-right: 30px;
 }
 
 .contact .contactBx .form .inputBx{
     margin: 10px 0;
+    padding-top: 1rem;
+    text-align: center
 }
 
 .contact .contactBx .form .inputBx p{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .contact .contactBx .form .inputBx input,
@@ -969,7 +970,7 @@ section{
 }
 
 .contact .contactBx .form .inputBx button{
-    height: 150px;
+    height: 5rem;
 }
 
 .contact .contactBx .form .inputBx button{
@@ -977,17 +978,17 @@ section{
     border: none;
     background: #00ccff;
     color: white;
-    width: 150px;
+    width: 10rem;
     font-size: 2rem;
     cursor: pointer;
-    border-radius: 25px;
-    letter-spacing: 2px;
-    padding: 10px 25px;
-    transition: 0.5s;
+    border-radius: 1rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+    transition: ease-in-out 0.3s;
 }
 
 .contact .contactBx .form .inputBx button{
-    transform: scale(0.9);
+    transform: scale(1.1);
 
 }
 
