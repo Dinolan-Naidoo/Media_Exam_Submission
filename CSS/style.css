@@ -992,6 +992,10 @@ section{
 
 }
 
+.contact .contactBx .form .inputBx #message_box{
+    height: 16rem;
+}
+
 .contact .map{
     width: 100%;
     display: flex;
