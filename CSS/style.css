@@ -995,6 +995,9 @@ section{
 
 .contact .contactBx .form .inputBx #message_box{
     height: 7rem;
+    font-size: 1.5rem;
+    max-width: 30rem;
+    max-height: 35rem;
 }
 
 .contact .map{
