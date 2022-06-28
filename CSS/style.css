@@ -959,7 +959,7 @@ section{
 }
 
 .contact .contactBx .form .inputBx input,
-.contact .contactBx .form .inputBx textarea{
+.contact .contactBx .form .inputBx button{
     border:  1px solid white;
     outline: none;
     padding: 10px;
@@ -968,11 +968,11 @@ section{
     font-size: 1.5rem;
 }
 
-.contact .contactBx .form .inputBx textarea{
+.contact .contactBx .form .inputBx button{
     height: 150px;
 }
 
-.contact .contactBx .form .inputBx input[type = "submit"]{
+.contact .contactBx .form .inputBx button{
     outline: none;
     border: none;
     background: #00ccff;
@@ -986,7 +986,7 @@ section{
     transition: 0.5s;
 }
 
-.contact .contactBx .form .inputBx input[type = "submit"]:hover{
+.contact .contactBx .form .inputBx button{
     transform: scale(0.9);
 
 }
