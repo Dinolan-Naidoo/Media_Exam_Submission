@@ -1043,6 +1043,7 @@ section{
 .contact .contactBx .cardBx .card a{
     color: #00ccff;
     font-size: 2rem;
+    pointer-events: none;
 
 }
 .contact .contactBx .cardBx .card p{
