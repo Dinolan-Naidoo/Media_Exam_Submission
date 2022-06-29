@@ -1028,9 +1028,8 @@ section{
 .contact .contactBx .cardBx .card{
     width: 100%;
     padding: 15px 25px;
-    
-    border: 2px solid rgb(255, 255, 255);
- 
+    max-height: 9rem;
+    border: 2px solid #00ccff;
     text-align: center;
     background: black;
     display: flex;
@@ -1043,7 +1042,7 @@ section{
 
 .contact .contactBx .cardBx .card a{
     color: #00ccff;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 .contact .contactBx .cardBx .card p{
@@ -1052,12 +1051,8 @@ section{
 
 }
 
-.contact .contactBx .cardBx .card:hover{
-    border: 3px solid #00ccff;
-
-}
 .contact .contactBx p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: rgb(177, 161, 161);
     text-align: justify;
    
@@ -1066,7 +1061,7 @@ section{
 
 .contact .contactBx h4{
     color: rgba(180, 180, 180, 0.854);
-    font-size: 2.5rem;
+    font-size: 2rem;
 
 }
 .contact .contactBx h4 span{
