@@ -47,7 +47,7 @@ loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Weapon.gltf"
     
     obj = gltf.scene;
     scene.add(gltf.scene);
-    animate();
+    animate1();
     
 })
 
@@ -58,8 +58,8 @@ scene.add(light);
 
 camera.position.set(0,0,7);
 
-function animate(){
-    requestAnimationFrame(animate);
+function animate1(){
+    requestAnimationFrame(animate1);
     obj.rotation.y += 0.02;
     renderer.render(scene,camera);
 }
