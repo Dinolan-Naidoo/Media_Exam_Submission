@@ -110,27 +110,104 @@ header .sci a:hover{
     cursor: pointer;
     
 }
-
 /***********************************Side Bar End************************************/
-.thanks_box 
+
+/***********************************Thank you Start***************************************************/
+.project
 {
     position: relative;
     width: 100%;
-    height: 165vh;
+    padding: 3rem;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
+
 }
 
-.thanks_box h1{
-    font-size: 7rem;
-    color: white;
+.project .contentBx{
+    width: 95%;
+    z-index: 1 ;
+    position: center;
+    background: #000000de;
+    padding: 4rem;
+   
 }
-.thanks_box span{
+
+.project .contentBx h2{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.project .contentBx span{
     color: #00ccff;
 }
 
+
+
+.project .contentBx article{
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+   
+
+}
+
+
+
+
+
+
+#canvas4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /*background: radial-gradient(#00000058,#000000);*/
+    
+    
+}
+
+#portF{
+    border-right: solid 2.5px #00ccff;
+}
+
+#Game_Link{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    background: #00ccff50;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
+#Game_Link:hover{
+    color: black;
+    background: #00ccff;
+}
+
+#P1{
+    width: 100%;
+    padding: 3rem;
+    border: 2px solid#00ccffad;
+    overflow: hidden;
+    object-fit: contain;
+    
+    
+    
+}
+
+#protext_text{
+    padding: 2rem;
+}
+
+/********************************************Thank you End********************************************************/
 /*******************************************Responsiveness Start********************************************/
 
 @media only screen and (max-width:950px)
