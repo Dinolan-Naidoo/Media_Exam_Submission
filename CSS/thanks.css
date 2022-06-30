@@ -117,8 +117,7 @@ header .sci a:hover{
 {
     position: relative;
     width: 100%;
-    padding: 3rem;
-    
+    margin-top: 20%;;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,16 +129,19 @@ header .sci a:hover{
 .project .contentBx{
     width: 95%;
     z-index: 1 ;
+    margin-right: 10rem;
     position: center;
-    background: #000000de;
+    background: #000000ec;
     padding: 4rem;
+    border: 2px solid #00ccff
+
    
 }
 
 .project .contentBx h2{
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 7rem;
 }
 
 .project .contentBx span{
@@ -149,7 +151,7 @@ header .sci a:hover{
 
 
 .project .contentBx article{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: white;
     text-align: center;
     font-weight: 400;
