@@ -4,21 +4,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
+    line-height: 1.5;
     scroll-behavior: smooth;
 }
-
-
-
-
 
 html{
     font-size: 63%;
 }
 
 body{
-    
-    background: rgb(18, 18, 18);
+    background: black;
+    padding-left: 28rem;
 }
 
 /**********************************Side Bar Start***************************************/
@@ -34,8 +30,9 @@ header{
     flex-flow: column;
     padding: 5rem 2rem;
     z-index: 100;
-    width: 22rem;
+    width: 25rem;
     text-align: center;
+    
     transition: 0.5s ease-in-out;
 
 }
@@ -43,7 +40,7 @@ header{
 header .logo{
     text-transform: uppercase;
     color: white;
-    font-size: 4rem ;
+    font-size: 5rem ;
     font-weight: bolder;
     text-decoration: none ;
 }
@@ -53,6 +50,7 @@ header .logo span{
     text-transform: uppercase;
 }
 
+
 header .navbar a{
     display: block;
     font-size: 2rem;
@@ -60,14 +58,25 @@ header .navbar a{
     margin: 3rem 0;
     text-decoration: none;
     transition: 0.5s;
+    padding: 0.5rem 1.1rem;
+    
 }
+
+
+
 
 header .navbar a:hover{
     /*letter-spacing: .2rem;*/
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: #00ccff;
+    
 
 }
+#blogA{
+    border-right: solid 2.5px #00ccff;
+}
+
+
 
 
 header .sci a{
@@ -78,9 +87,15 @@ header .sci a{
 
 header .sci a:hover{
     color: #00ccff;
-    transition: 0.3s;
+    transition: 0.5s ease-in-out ;
 
 }
+
+
+
+
+
+
 
 #menu-bars{
     position: fixed;
@@ -91,9 +106,8 @@ header .sci a:hover{
     padding: 1rem 1.5rem;
     font-size: 4rem;
     display: none;
-    z-index: 10;
+    z-index: 100000;
     cursor: pointer;
     
 }
-
 
