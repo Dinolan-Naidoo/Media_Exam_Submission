@@ -13,6 +13,15 @@ var renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+window.addEventListener("resize", function()
+{
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    renderer.setSize(width, height);
+    camera.aspect = width/height;
+    camera.updateProjectionMatrix();
+})
+
 var loader = new GLTFLoader();
 
 var obj;
@@ -37,5 +46,7 @@ function animate(){
     obj.rotation.y += 0.02;
     renderer.render(scene,camera);
 }
+
+
 
 
