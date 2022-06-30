@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+
     scroll-behavior: smooth;
 }
 
@@ -18,8 +18,7 @@ html{
 
 body{
     
-    padding-left: 28rem;
-    background: black;
+    background: rgb(18, 18, 18);
 }
 
 /**********************************Side Bar Start***************************************/
@@ -96,101 +95,5 @@ header .sci a:hover{
     cursor: pointer;
     
 }
-/***********************************Side Bar End************************************/
-
-/***********************************Project Start***************************************************/
-
-.project
-{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
-}
-
-.project .contentBx{
-    width: 95%;
-    z-index: 1 ;
-    position: center;
-    background: #000000de;
-    padding: 4rem;
-   
-}
-
-.project .contentBx h2{
-    color: white;
-    text-align: center;
-    font-size: 4rem;
-}
-
-.project .contentBx span{
-    color: #00ccff;
-}
-
-
-
-.project .contentBx article{
-    font-size: 1.8rem;
-    color: white;
-    text-align: justify;
-    font-weight: 400;
-   
-
-}
-
-
-
-
-
-.project .contentBx .btn{
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 1rem;
-    
-}
-
-.project .contentBx .btn .blogBtn{
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid #00ccff77;
-    background: black;
-    margin-top: 20px;
-    color: white;
-    font-size: 1.8rem;
-    text-decoration: none;
-    margin-top: 20px;
-    border-radius: 5px;
-    transition: 0.4s;
-
-}
-
-
-
-.project .contentBx .btn .blogBtn:hover{
-    transform: scale(1.15);
-    border: 1px solid #00ccff
-}
-
-#canvas4{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-
-    /*background: radial-gradient(#00000058,#000000);*/
-    
-    
-}
-
-
-/********************************************Project End********************************************************/
 
 
