@@ -11,10 +11,10 @@
 html{
     font-size: 63%;
 }
-
 body{
     
-    padding-left: 28rem;
+    padding-left:5rem
+    
 }
 
 /**********************************Side Bar Start***************************************/
@@ -111,3 +111,12 @@ header .sci a:hover{
     
 }
 
+h1{
+    font-size: 1.7rem;
+    text-align: center;
+    color: black;
+}
+
+span{
+    color: #00ccff;
+}
