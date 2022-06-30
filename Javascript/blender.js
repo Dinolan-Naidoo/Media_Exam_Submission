@@ -2,8 +2,6 @@ import {GLTFLoader} from "../Javascript/GLTFLoader.js";
 
 
 
-const progressBar = document.getElementById("progress-bar");
-
 var manager = new THREE.LoadingManager();
 
 manager.onStart = function (item, loaded, total) {
