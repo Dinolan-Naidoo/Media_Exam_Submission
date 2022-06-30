@@ -1,5 +1,11 @@
 import {GLTFLoader} from "../Javascript/GLTFLoader.js";
 
+
+
+const progressBar = document.getElementById("progress-bar");
+
+const loadingManager = new THREE.LoadingManager();
+
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(
     75, 
@@ -21,6 +27,9 @@ window.addEventListener("resize", function()
     camera.aspect = width/height;
     camera.updateProjectionMatrix();
 })
+
+
+
 
 var loader = new GLTFLoader();
 
