@@ -4,7 +4,17 @@ import {GLTFLoader} from "../Javascript/GLTFLoader.js";
 
 const progressBar = document.getElementById("progress-bar");
 
-const loadingManager = new THREE.LoadingManager();
+var manager = new THREE.LoadingManager();
+
+manager.onStart = function (item, loaded, total) {
+    console.log('Loading started');
+};
+
+manager.onLoad = function () {
+    console.log('Loading complete');            
+    bar.destroy();
+};
+
 
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(
@@ -31,7 +41,7 @@ window.addEventListener("resize", function()
 
 
 
-var loader = new GLTFLoader();
+var loader = new GLTFLoader(manager);
 
 var obj;
 loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Weapon.gltf", function(gltf)
