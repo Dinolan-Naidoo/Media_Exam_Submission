@@ -15,19 +15,7 @@ var renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-window.addEventListener("resize", function()
-{
-    var width = window.innerWidth;
-    var height = window.innerHeight;
-    renderer.setSize(width, height);
-    camera.aspect = width/height;
-    camera.updateProjectionMatrix();
-})
-
-
-
-
-var loader = new GLTFLoader(manager);
+var loader = new GLTFLoader();
 
 var obj;
 loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Weapon.gltf", function(gltf)
@@ -51,6 +39,15 @@ function animate(){
     obj.rotation.y += 0.02;
     renderer.render(scene,camera);
 }
+
+window.addEventListener("resize", function()
+{
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    renderer.setSize(width, height);
+    camera.aspect = width/height;
+    camera.updateProjectionMatrix();
+})
 
 
 
