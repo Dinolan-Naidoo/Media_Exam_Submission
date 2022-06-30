@@ -5,6 +5,20 @@ canvas.height = window.innerHeight;
 
 let particlesArray;
 
+let mouse ={
+    x:null,
+    y:null,
+    radius: (canvas.height/120) * (canvas.width/120)
+}
+
+window.addEventListener('mousemove', 
+function(event)
+{
+    mouse.x = event.x;
+    mouse.y = event.y;
+}
+);
+
 //Create particle
 
 class Particle{
@@ -44,6 +58,36 @@ class Particle{
             this.directionY = -this.directionY;
         }
 
+        //Check collision 
+
+        let dx = mouse.x - this.x;
+        let dy = mouse.y - this.y;
+        let distance = Math.sqrt(dx*dx + dy*dy);
+        if(distance < mouse.radius + this.size)
+        {
+            if(mouse.x < this.x && this.x < canvas.width - this.size * 10)
+            {
+                this.x +=10;
+            }
+            if(mouse.x > this.x && this.x >  this.size * 10)
+            {
+                this.x -=10;
+            }
+
+            if(mouse.y < this.y && this.y < canvas.height - this.size *10)
+            {
+                this.y +=10;
+            }
+
+            if(mouse.y > this.y && this.y > this.size *10)
+            {
+                this.y -=10;
+            }
+        }
+
+        //Move particle
+        this.x += this.directionX;
+        this.y += this.directionY;
 
         //draw particle
         this.draw() ;
@@ -58,7 +102,7 @@ function init()
     particlesArray = [];
 
     //let numberOfParticles = ((canvas.height * canvas.width)/6000);
-    let numberOfParticles = (60);
+    let numberOfParticles = (100);
 
     for(let i = 0 ; i< numberOfParticles ; i++)
     {
@@ -79,9 +123,9 @@ function init()
 
 //Animation loop
 
-function animate2()
+function animate()
 {
-    requestAnimationFrame(animate2);
+    requestAnimationFrame(animate);
     ctx.clearRect(0,0, innerWidth, innerHeight );
 
     for( let i = 0 ; i < particlesArray.length ; i++)
@@ -130,10 +174,18 @@ function(){
     init();
 });
 
+//mouse out event
 
+window.addEventListener('mouseout',
+ function()
+ {
+     mouse.x = undefined;
+     mouse.x = undefined;
+ }
+);
 
 init();
-animate2();
+animate();
 
 let menu = document.querySelector('#menu-bars');
 let header = document.querySelector('header');
@@ -149,10 +201,12 @@ window.onscroll = () =>{
   header.classList.remove('active'); 
 }
    
-   
   
 
 
+
+
+ 
 
 
  
