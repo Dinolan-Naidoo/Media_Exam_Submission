@@ -2,18 +2,6 @@ import {GLTFLoader} from "../Javascript/GLTFLoader.js";
 
 
 
-var manager = new THREE.LoadingManager();
-
-manager.onStart = function (item, loaded, total) {
-    console.log('Loading started');
-};
-
-manager.onLoad = function () {
-    console.log('Loading complete');            
-    bar.destroy();
-};
-
-
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(
     75, 

@@ -79,9 +79,9 @@ function init()
 
 //Animation loop
 
-function animate()
+function animate2()
 {
-    requestAnimationFrame(animate);
+    requestAnimationFrame(animate2);
     ctx.clearRect(0,0, innerWidth, innerHeight );
 
     for( let i = 0 ; i < particlesArray.length ; i++)
@@ -133,7 +133,7 @@ function(){
 
 
 init();
-animate();
+animate2();
 
 let menu = document.querySelector('#menu-bars');
 let header = document.querySelector('header');
