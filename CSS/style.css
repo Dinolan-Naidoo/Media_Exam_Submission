@@ -902,6 +902,14 @@ section{
     text-align: center;
 }
 
+.design .cardBx .card div img{
+    position: absolute;
+    height: 70rem;
+    width: 90rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
 /*********************************/
 .design .container{
     display: flex;
