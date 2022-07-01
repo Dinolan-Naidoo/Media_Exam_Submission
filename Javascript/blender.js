@@ -29,7 +29,7 @@ loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Weapon.gltf"
 })
 
 var light = new THREE.HemisphereLight(0xffffff , 0x000000,2);
-scene.background = new THREE.Color(0xffffff);
+scene.background = new THREE.Color(0xccffff);
 
 scene.add(light);
 
