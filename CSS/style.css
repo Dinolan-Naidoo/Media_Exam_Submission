@@ -889,13 +889,12 @@ section{
     position: relative;
 }
 .design .cardBx .card div h2:hover{
-    transform: scale(1.05);
     transition: 0.5s ease-in-out;
 
 }
 
 .design .cardBx .card div article{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     transition: 0.5s;
     color: white;
     font-weight: 300;
@@ -905,9 +904,9 @@ section{
 .design .cardBx .card div img{
     position: center;
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 7rem;
     z-index: 1;
-    padding: 0.5rem;
+    padding: 1rem 3rem;
     
 }
 
