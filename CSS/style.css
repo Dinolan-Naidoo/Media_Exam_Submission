@@ -790,9 +790,8 @@ section{
     position: relative;
 }
 
-.portfolio .cardBx .card div span{
-    color: #00ccff;
-}
+
+
 .portfolio .cardBx .card div h2:hover{
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
