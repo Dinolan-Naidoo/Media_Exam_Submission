@@ -199,6 +199,21 @@ article{
     border: 1px solid #00ccff
 }
 
+#Next_Link{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    background: #00ccff50;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
+#Next_Link:hover{
+    color: black;
+    background: #00ccff;
+}
+
 
 
 /********************************************Design End********************************************************/
