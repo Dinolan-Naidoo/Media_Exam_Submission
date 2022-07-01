@@ -5,7 +5,7 @@ import {GLTFLoader} from "../Javascript/GLTFLoader.js";
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(
     55, 
-    window.innerWidth/window.innerHeight,
+    window.innerWidth/window.innerHeight-20,
     .01,
     1000
 );
