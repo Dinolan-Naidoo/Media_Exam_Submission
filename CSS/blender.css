@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 63%;
+    
+}
+body{
+    
+    padding-left:5rem;
+    font-size: 1.5rem;
+
+    
+}
+
+/**********************************Side Bar Start***************************************/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    padding: 5rem 2rem;
+    z-index: 100;
+    width: 25rem;
+    text-align: center;
+    
+    transition: 0.5s ease-in-out;
+
+}
+
+header .logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 5rem ;
+    font-weight: bolder;
+    text-decoration: none ;
+}
+
+header .logo span{
+    color:#00ccff ;
+    text-transform: uppercase;
+}
+
+
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color: white;
+    margin: 3rem 0;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 0.5rem 1.1rem;
+    
+}
+
+
+
+
+header .navbar a:hover{
+    /*letter-spacing: .2rem;*/
+    transform: scale(1.1);
+    color: #00ccff;
+    
+
+}
+#blogA{
+    border-right: solid 2.5px #00ccff;
+}
+
+
+
+
+header .sci a{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0.7rem;
+}
+
+header .sci a:hover{
+    color: #00ccff;
+    transition: 0.5s ease-in-out ;
+
+}
+
+
+
+
+
+
+
+#menu-bars{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: 4rem;
+    display: none;
+    z-index: 100000;
+    cursor: pointer;
+    
+}
+
+.heading{
+    top: 0%;
+    background: black;
+    border-top: 2px solid #00ccff;
+    border-bottom: 2px solid #00ccff;
+
+}
+ 
+.heading h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+span{
+    color: #00ccff;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+
+#Game_Link{
+  
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    background: #00ccff50;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    
+}
+
+#Game_Link:hover{
+    color: black;
+    background: #00ccff;
+}
+
+
+
+
