@@ -28,12 +28,12 @@ loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Blambo.gltf"
     
 })
 
-var light = new THREE.HemisphereLight(0xffffff , 0x000000,2);
+var light = new THREE.HemisphereLight(0xffffff , 0x000000,1.4);
 scene.background = new THREE.Color(0xbfbfbf);
 
 scene.add(light);
 
-camera.position.set(0,1,4.8);
+camera.position.set(0,3,7);
 
 function animate(){
     requestAnimationFrame(animate);
