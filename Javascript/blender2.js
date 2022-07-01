@@ -19,7 +19,7 @@ document.body.appendChild(renderer.domElement);
 var loader = new GLTFLoader();
 
 var obj;
-loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Weapon.gltf", function(gltf)
+loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Blambo.gltf", function(gltf)
 {
     
     obj = gltf.scene;
