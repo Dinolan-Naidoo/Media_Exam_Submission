@@ -850,7 +850,7 @@ section{
     overflow: hidden;
 }
 
-.design.cardBx .card::before{
+.design .cardBx .card::before{
     position: absolute;
     content: '';
     left: calc(-100% + 3px);
@@ -862,7 +862,7 @@ section{
     transition: 0.5s ease-in-out;
 }
 
-.design.cardBx .card:hover::before{
+.design .cardBx .card:hover::before{
     left: 0;
 }
 
