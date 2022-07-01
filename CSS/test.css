@@ -10,6 +10,7 @@
 
 html{
     font-size: 63%;
+    
 }
 body{
     
@@ -113,11 +114,18 @@ header .sci a:hover{
     
 }
 
+.heading{
+    top: 0%;
+    background: black;
+    border-top: 2px solid #00ccff;
+    border-bottom: 2px solid #00ccff;
+}
  
-h1{
-    font-size: 1.7rem;
+.heading h1{
+    font-size: 3.5rem;
     text-align: center;
-    color: black;
+    color: white;
+    margin-top: 0;
 }
 
 span{
@@ -125,7 +133,9 @@ span{
 }
 
 p{
+    color: white;
     text-align: center;
+    padding-bottom: 0.2rem;
 }
 
 

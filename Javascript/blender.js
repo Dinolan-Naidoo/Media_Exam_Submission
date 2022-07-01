@@ -6,7 +6,7 @@ var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(
     75, 
     window.innerWidth/window.innerHeight,
-    .01,
+    .1,
     1000
 );
 
@@ -29,15 +29,15 @@ loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Weapon.gltf"
 })
 
 var light = new THREE.HemisphereLight(0xffffff , 0x000000,2);
-scene.background = new THREE.Color(0xccffff);
+scene.background = new THREE.Color(0xbfbfbf);
 
 scene.add(light);
 
-camera.position.set(0,1,5);
+camera.position.set(0,1,4.8);
 
 function animate(){
     requestAnimationFrame(animate);
-    obj.rotation.y += 0.02;
+    obj.rotation.y += 0.015;
     renderer.render(scene,camera);
 }
 
