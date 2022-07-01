@@ -790,6 +790,10 @@ section{
     position: relative;
 }
 
+.portfolio .cardBx .card div span{
+    color: #00ccff;
+    font-weight: 900;
+}
 
 
 .portfolio .cardBx .card div h2:hover{
