@@ -32,7 +32,7 @@ scene.background = new THREE.Color(0xffffff);
 
 scene.add(light);
 
-camera.position.set(0,1,6);
+camera.position.set(0,0,6);
 
 function animate(){
     requestAnimationFrame(animate);
