@@ -28,7 +28,7 @@ loader.load("../Images/[1842861]_[Dinolan_Naidoo]_WSOA2026_Assignment02.gltf", f
     
 })
 
-var light = new THREE.HemisphereLight(0xffffff , 0x000000,45);
+var light = new THREE.HemisphereLight(0xffffff , 0x000000,25);
 scene.background = new THREE.Color(0xbfbfbf);
 
 scene.add(light);

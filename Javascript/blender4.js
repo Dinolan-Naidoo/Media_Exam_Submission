@@ -28,7 +28,7 @@ loader.load("../Images/1842861_DinolanNaidoo_WSOA2026_2020_ExamGame_Bullet.gltf"
     
 })
 
-var light = new THREE.HemisphereLight(0xffffff , 0x000000,3.2);
+var light = new THREE.HemisphereLight(0xffffff , 0x000000,3);
 scene.background = new THREE.Color(0xbfbfbf);
 
 scene.add(light);
