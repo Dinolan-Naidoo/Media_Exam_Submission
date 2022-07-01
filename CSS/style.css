@@ -910,69 +910,6 @@ section{
     
 }
 
-/*********************************/
-.design .container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    margin-top: 20px;
-}
-
-.design .container .box{
-
-    
-    height: 55rem;
-    width: 95rem;
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    border: 1rem solid rgba(0, 0, 0, 0);
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
-    align-items: center;
-
-}
-
-.design .container .box img{
-    position: absolute;
-    height: 70rem;
-    width: 90rem;
-    border-radius: 0.5rem;
-    z-index: 1;
-    transition: 0.5s ease-in-out;
-}
-
-.design .container .box:hover img{
-    z-index: 0;
-
-}
-
-.design .container .box .h3{
-    position: absolute;
-    bottom: 42%;
-    left: 25%;
-    font-size: 4rem;
-    font-weight: 500;
-    color: #000000;
-    text-transform: uppercase;
-    background:  #00ccff;
-    padding: 1rem;
-    border-radius: 2rem;
-    border: 2px solid rgba(255, 255, 255, 0);
-    transition: 0.4s ease-in-out;
-    z-index: 2;
-    
-}
-
-.design .container .box .h3:hover{
-   
-    border: 2px solid rgb(255, 255, 255);
-}
-
-
-
-
 /****************************************Design End*********************************************************/
 /*****************************************Contact Start*****************************************************/
 
