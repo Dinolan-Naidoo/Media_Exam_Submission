@@ -113,29 +113,18 @@ header .sci a:hover{
     
 }
 
- /* Style the header */
- .header {
-    padding: 2rem 3rem;
-    background: rgb(0, 0, 0);
-    color: #f1f1f1;
-  }
-  
-  /* Page content */
-  .content {
-    padding: 1.6rem;
-  }
  
-.header h1{
+h1{
     font-size: 1.7rem;
     text-align: center;
     color: black;
 }
 
-.header span{
+span{
     color: #00ccff;
 }
 
-.header p{
+p{
     text-align: center;
 }
 
