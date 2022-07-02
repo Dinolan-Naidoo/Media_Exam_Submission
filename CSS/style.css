@@ -464,7 +464,7 @@ section{
 .experience h1{
     color: white;
     font-size: 4rem;
-    
+    text-align: center;
     font-weight: 500;
 }
 
@@ -823,6 +823,7 @@ section{
 .design h1{
     color: white;
     font-size: 4rem;
+    text-align: center;
 
 }
 
