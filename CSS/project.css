@@ -208,6 +208,7 @@ header .sci a:hover{
 }
 
 /********************************************Project End********************************************************/
+
 /*******************************************Responsiveness Start********************************************/
 
 @media only screen and (max-width:950px)
@@ -291,6 +292,7 @@ header .sci a:hover{
         flex-direction: column;
         margin: 4rem;
     }
+
     
 
 }
