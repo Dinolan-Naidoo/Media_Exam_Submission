@@ -251,7 +251,10 @@ section{
     transform: scale(1.12);
 }
 
-
+#profile_image
+{
+    width: 30rem;
+}
 
 
 
@@ -825,7 +828,7 @@ section{
     font-size: 4rem;
     text-align: center;
 
-    
+
 
 }
 
