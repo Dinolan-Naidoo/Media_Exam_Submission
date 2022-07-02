@@ -164,5 +164,95 @@ p{
 }
 
 
+/*******************************************Responsiveness Start********************************************/
+
+@media only screen and (max-width:950px)
+{
+
+    html{
+        font-size: 60%;
+    }
+    #menu-bars
+    {
+        display: initial;
+    }
+
+    header
+    {
+        left: -120%;
+    }
+
+    header.active
+   {
+        left: 0%;
+        width: 20%;
+   }
+
+   body{
+       padding: 1rem;
+   }
+
+  
+
+   
+
+   
+
+   
+}
+
+
+@media (max-width:480px){
+
+    html{
+        font-size:50% ;
+    }
+
+    
+    header.active
+    {
+         left: 0%;
+         width: 40%;
+    }
+
+    #menu-bars
+    {
+        display: initial;
+        right: 1rem;
+    }
+
+    header{
+        
+        padding: 0.5rem 0.2rem;
+        z-index: 100;
+        width: 12rem;
+    
+    }
+    
+    header .logo{
+        text-transform: uppercase;
+        color: white;
+        font-size: 4rem ;
+        font-weight: bolder;
+        text-decoration: none ;
+    }
+    
+    header .logo span{
+        color:#00ccff ;
+        text-transform: uppercase;
+    }
+
+    #Game_Link{
+        display: flex;
+        flex-direction: column;
+        margin: 4rem;
+    }
+    
+
+}
+
+/*******************************************Responsiveness End*************************************************/
+
+
 
 
