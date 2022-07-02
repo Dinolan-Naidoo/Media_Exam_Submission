@@ -198,9 +198,7 @@ header .sci a:hover{
     border: 2px solid#00ccffad;
     overflow: hidden;
     object-fit: contain;
-    
-    
-    
+   
 }
 
 #protext_text{
@@ -291,6 +289,12 @@ header .sci a:hover{
         display: flex;
         flex-direction: column;
         margin: 4rem;
+    }
+
+    #P1{
+        width: 50rem;
+        margin: 0 -8rem;
+        border: none;
     }
 
     

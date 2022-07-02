@@ -416,9 +416,26 @@ article{
     .design .contentBx article{
 
         text-align: center;
+        width: 45rem;
+        margin: 0 -4rem
        
     
     }
+    
+    #SG{
+        width: 50rem;
+        transform:translateX(-7rem);
+    }
+    
+    .design .contentBx h2{
+        transform:translateX(-3rem);
+    }
+    
+     .design .contentBx h3{
+        transform:translateX(-3rem);
+    }
+    
+}
     
     
     
