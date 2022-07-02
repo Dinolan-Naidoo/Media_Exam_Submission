@@ -285,6 +285,12 @@ header .sci a:hover{
         color:#00ccff ;
         text-transform: uppercase;
     }
+
+    #Game_Link{
+        display: flex;
+        flex-direction: column;
+        margin: 4rem;
+    }
     
 
 }

@@ -1281,11 +1281,7 @@ section{
         text-transform: uppercase;
     }
 
-    #Game_Link{
-        display: flex;
-        flex-direction: column;
-        margin: 4rem;
-    }
+
         
     
     
