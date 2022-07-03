@@ -251,13 +251,7 @@ section{
     transform: scale(1.12);
 }
 
-#profile_image{
-    display: inline-block;
-    width: 15rem;
-    padding: 1rem;
-    margin-right:8rem;
-    border-radius: 4rem;
-}
+
 
 
 
