@@ -426,6 +426,11 @@ article{
         width: 45rem;
         transform:translateX(-4rem);
     }
+
+    #WF{
+        width: 45rem;
+        transform:translateX(-7rem);
+    }
     
     .design .contentBx h2{
         transform:translateX(-3rem);
